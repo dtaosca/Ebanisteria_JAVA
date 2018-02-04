@@ -34,7 +34,10 @@ public class Estanteria extends Mueble{
     public int getNBaldas(){
         return this.num_baldas;
     }
-    
+    /**
+     * 
+     * @param num_baldas 
+     */
     public void setNBaldas(int num_baldas){
         this.num_baldas = num_baldas;
     }
